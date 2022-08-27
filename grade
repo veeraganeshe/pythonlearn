@@ -1,0 +1,70 @@
+"""
+get 3 marks input
+total
+average
+result
+if pass grade
+ 90-100  A
+ 80-89 B
+ 70-79 C
+ els D
+"""
+m1 = int(input("Enter Mark1: "))
+m2 = int(input("Enter Mark2: "))
+m3 = int(input("Enter Mark3: "))
+
+total = m1 + m2 + m3
+average = total/3.0
+print("Total is : ", total)
+print("Average is : ", average)
+if m1 >= 35 and m2 >= 35 and m3 >= 35:
+    print("Result is :  PASS")
+    if average >= 90 and average <= 100:
+        print("Grade is : A")
+    elif average >=80 and average <= 89:
+        print(("Grade is : B"))
+    elif average >=70 and average <= 79:
+        print(("Grade is : C"))
+else:
+    print("Result : Fail")
+    print("Grade is : D")
+
+
+
+
+
+
+
+
+"""
+get 3 marks input
+total
+average
+result
+if pass grade
+ 90-100  A
+ 80-89 B
+ 70-79 C
+ els D
+"""
+m1 = int(input("Enter Mark1: "))
+m2 = int(input("Enter Mark2: "))
+m3 = int(input("Enter Mark3: "))
+
+total = m1 + m2 + m3
+average = total/3.0
+print("Total is : ", total)
+print("Average is : ", average)
+if m1 >= 35 and m2 >= 35 and m3 >= 35:
+    print("Result is :  PASS")
+    if average >= 90 and average <= 100:
+        print("Grade is : A")
+    elif average >=80 and average <= 89:
+        print(("Grade is : B"))
+    elif average >=70 and average <= 79:
+        print(("Grade is : C"))
+else:
+    print("Result : Fail")
+    print("Grade is : D")
+
+
