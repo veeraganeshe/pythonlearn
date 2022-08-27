@@ -1,0 +1,10 @@
+cash = int(input("enter your Amount:  "))
+
+if cash == 100:
+    print("you  have exact amount to buy this watch ")
+elif cash <=100:
+    print("still  you need money ", cash - 100.00)
+elif cash >=100:
+    print("you can buy this watch and still you have ", int((cash - 100)))
+else:
+    print("thanks for checking this out")
