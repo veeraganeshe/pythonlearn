@@ -1,0 +1,19 @@
+"""
+0 no fine
+1-5  0.5 fine
+5-10 1 fine
+10-30 5 fine
+>30 membership cancel
+"""
+
+days = int(input("enter the days: "))
+if days == 0:
+    print("Good no fine")
+elif days >=1 and days <=5:
+    print("Fine Amount is : ", days * 0.5)
+elif days >5 and days <=10:
+    print("Fine Amount si : ", days * 1 )
+elif days >10 and days <=30:
+    print("Fine Amount is : ", days * 5)
+else:
+    print("your mumbership is canceled since the due days over 30days")
