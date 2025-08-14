@@ -12,9 +12,9 @@ print("""Select operation
 3.mul 
 4.div
 """)
-choice = int(input("enter your choice"))
-a = int(input("enter number 1"))
-b = int(input("enter number 2"))
+choice = int(input("enter your choice "))
+a = int(input("enter number 1 "))
+b = int(input("enter number 2 "))
 
 if choice == 1:
     print(add(a, b))
@@ -25,4 +25,4 @@ elif choice == 3:
 elif choice == 4:
     print(div(a, b))
 else:
-    print("enter correct choice")
+    print("enter correct choice ")
